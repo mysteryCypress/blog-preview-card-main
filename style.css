@@ -77,11 +77,20 @@ body {
     display: flex;
     align-items: center;
     padding: 1vh;
+    font-weight: bold;
 }
 
 #footer img {
     width: 4em;
     display: inline-block;
+}
+
+#footer #name {
+    margin-left: 1em;
+}
+
+#footer #name, #status, #message, #text {
+    text-shadow: 0.1px 0.1px 0.1px var(--gray-950);
 }
 
 @media screen and (max-width: 768px) {
